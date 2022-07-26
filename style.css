@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2{
+   font-size: 2.5rem;
+   text-align: center; 
+}
+
+
+a {
+    color: rgb(16, 12, 6);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+p{
+font-size:1.2rem ;
+text-align: justify;
+
+}
+
+.dotted-hr{
+
+    border: dotted 6px white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
+
+[class*="col-"] {
+
+    float: left;
+    padding: 6px;
+}
+
+/*for mobile*/
+[class*="col-"] {
+    width: 100%
+}
+
+/* navbar design start here */
+
+.navbar {
+    background-color: rgb(107, 3, 107);
+    padding: 1% 7%;
+    text-align: center;
+}
+.navbar h1{
+color: rgb(225, 216, 216);
+margin: 0;
+padding-top: 8px;
+
+}
+
+.navbar-menu{
+    
+display: flex;
+flex-direction: column;
+text-transform:uperercase;
+
+}
+.navbar-menu a{
+background-color:#b9c1b9 ;
+border-radius: 6px;
+margin: 5px 0px;
+padding:8px;
+
+}
+.navbar-menu a:hover{
+
+    background-color: rgb(97, 14, 14);
+}
+.navbar::after {
+    content: '';
+    display: table;
+    clear: both;
+
+}
+/* Navbar design ends here */
+
+
+/* profile design start from here */
+.profile{
+   
+padding: 130px 10px;
+position: relative;
+text-align: center;
+}
+
+.profile.top-weather-icon{
+text-align: right;
+position:absolute;
+right: 60px;
+top: 20px;
+transition:transform 2s;
+}
+.profile.top-weather-icon:hover{
+    transform: rotate(360deg);
+    
+    }
+    .profile-desc h1{
+
+        font-family: 'Satisfy',cursive;
+        font-size: 3rem;
+    }
+
+    .profile-desc p{
+        color: navy;
+        font-family:'Satisfy',cursive;
+        text-align: center;
+        
+    
+    }
+    
+
+
+
+/* profile design ends from here */
+
+/* about me design starts here */
+.about-me{
+background-color: #ddb0dd;
+padding: 1% 7%;
+color: black;
+text-align: center;
+
+}
+.aboutme-image img {
+
+    border:4px solid white ;
+    border-radius:20px;
+    height: 400px;
+    width: 300px;
+
+}
+
+.about-me::after{
+
+    clear:both;
+    display: table;
+    content: '';
+}
+.about-me p{
+
+    text-align: center;
+}
+
+.about-me a{
+    fornt-size:1.2rem;
+
+}
+
+.cv-button{
+
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+/* about me design endss here */
+
+/* professional experience starts here */
+
+.professional-experience{
+
+    padding: 1% 0%;
+}
+.professional-experience .card{
+background-color:coral;
+border-radius: 5px;
+padding: 10px;
+transition: .3s;
+}
+.professional-experience .card:hover{
+    box-shadow: 0 4px 8px 5px black;
+
+     
+}
+.professional-experience::after{
+class:both;
+display: table;
+contain: '';
+
+
+}
+
+
+/* professional experience starts here */
